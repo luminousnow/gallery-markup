@@ -5,12 +5,13 @@ body {
 /* === container style === */
 .container {
   margin: 0 auto;
-  padding: 0px 15px;
-  width: 300px;
+  padding: 0px 10px;
+  width: 320px;
 }
 
 @media screen and (min-width: 640px) {
   .container {
+    padding: 0px 15px;
     width: 640px;
   }
 }
