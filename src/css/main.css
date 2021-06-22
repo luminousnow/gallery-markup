@@ -1,0 +1,11 @@
+@import "utility/style.css";
+@import "fonts/style.css";
+@import "common/style.css";
+
+@import "header-section/style.css";
+@import "main-section/style.css";
+@import "footer-section/style.css";
+
+* {
+  outline: 1px solid tomato;
+}

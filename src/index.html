@@ -4,7 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="./css/main.css" />
     <title>markup</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <p class="logo"><a href="/" class="logo-link">Backendless</a></p>
+        <ul class="theme-list">
+          <li class="list-element">
+            <label
+              ><input
+                class="element-imput"
+                id="light"
+                type="radio"
+                name="theme"
+                value="1"
+                checked
+              />Light Theme</label
+            >
+          </li>
+          <li class="list-element">
+            <label
+              ><input
+                class="element-imput"
+                id="dark"
+                type="radio"
+                name="theme"
+              />Dark Theme</label
+            >
+          </li>
+          <li class="list-element">
+            <label
+              ><input
+                class="element-imput"
+                id="backendless"
+                type="radio"
+                name="theme"
+              />Backendless Theme</label
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main container">
+      <figure>
+        <!-- srcset="", webp -->
+        <img
+          src="https://picsum.photos/1000/600.webp"
+          alt="img description"
+          width="100%"
+          height="600"
+        />
+      </figure>
+    </main>
+    <footer class="footer container"></footer>
+  </body>
 </html>
