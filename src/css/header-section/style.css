@@ -1,4 +1,5 @@
 .header {
+  display: flex;
   margin-bottom: 8px;
   min-height: 30px;
 
@@ -24,10 +25,6 @@
 
 .header .theme-list {
   display: flex;
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
 }
 
 .theme-list .list-element:not(:last-child) {

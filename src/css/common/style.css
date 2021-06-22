@@ -5,17 +5,18 @@ body {
 /* === container style === */
 .container {
   margin: 0 auto;
+  padding: 0px 15px;
   width: 300px;
 }
 
 @media screen and (min-width: 640px) {
   .container {
-    width: 600px;
+    width: 640px;
   }
 }
 
 @media screen and (min-width: 1080px) {
   .container {
-    width: 1040px;
+    width: 1080px;
   }
 }
